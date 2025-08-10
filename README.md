@@ -1,5 +1,6 @@
 # Student Organization Governance DAO
 Deployed on Stacks Testnet: ST2ZR3R5T65RHDW0EX4KEBYFZ1N0QV7V2KY31F5PK.student-organization-governance
+Repo for the Front-end (Unfinished): https://github.com/rakhargo/student-organization-governance-fe
 ## Project Summary
 This project is a Decentralized Autonomous Organization (DAO) built on the Stacks blockchain, designed to improve transparency and governance for student organizations. It provides a secure and automated platform for members to participate in decision-making and track organizational finances.
 

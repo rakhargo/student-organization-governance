@@ -1,0 +1,15 @@
+[project]
+name = "student-organization-governance"
+description = "DAO for student organizations"
+authors = ["Rakha Dhifiargo <rakhargo@gmail.com>"]
+telemetry = true
+cache_dir = "./.clarinet"
+
+[contracts.student-organization-governance]
+path = "contracts/student-organization-governance.clar"
+clarity_version = 2
+epoch = 2.4
+
+[repl]
+costs_version = 2
+parser_version = 2

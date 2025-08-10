@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://stacks-node-api.testnet.stacks.co"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: student-organization-governance
+            expected-sender: ST2ZR3R5T65RHDW0EX4KEBYFZ1N0QV7V2KY31F5PK
+            cost: 55490
+            path: contracts/student-organization-governance.clar
+            anchor-block-only: true
+            clarity-version: 2
+      epoch: "2.4"
